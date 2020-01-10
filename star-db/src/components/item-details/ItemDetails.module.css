@@ -1,0 +1,37 @@
+.itemDetailsSection {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.itemList {
+    height: 265px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.itemImg {
+    width: 200px;
+    border: solid 2px grey;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.itemGroup {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.selectItem {
+    display: block;
+    width: 40%;
+    text-align: left;
+    padding: 20px 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #00bc8c
+}

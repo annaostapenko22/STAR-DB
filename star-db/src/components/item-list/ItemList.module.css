@@ -1,0 +1,24 @@
+.personSection {
+    /* text-align: left; */
+    /* border: 1px solid red; */
+    width: 40%;
+}
+
+.itemList {
+    /* width: 100%; */
+    width: 100%;
+
+    border: solid 2px grey;
+    border-radius: 10px;
+}
+
+.item {
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: solid 1px grey;
+
+}
+
+.item:hover {
+    color: #00bc8c;
+}

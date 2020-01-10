@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.nav {
+    width: 700px;
+}
+
+.list {
+    display: flex;
+    justify-content: flex-start;
+
+
+}
+
+.listItem {
+    margin-right: 40px;
+}
+
+.link {
+    font-size: 18px;
+    font-weight: 700;
+}
