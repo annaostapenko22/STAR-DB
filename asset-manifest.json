@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/STAR-DB/static/css/main.ba31df15.chunk.css",
-    "main.js": "/STAR-DB/static/js/main.f1dc01e1.chunk.js",
-    "main.js.map": "/STAR-DB/static/js/main.f1dc01e1.chunk.js.map",
-    "runtime-main.js": "/STAR-DB/static/js/runtime-main.97b2269c.js",
-    "runtime-main.js.map": "/STAR-DB/static/js/runtime-main.97b2269c.js.map",
-    "static/js/2.0f4ed810.chunk.js": "/STAR-DB/static/js/2.0f4ed810.chunk.js",
-    "static/js/2.0f4ed810.chunk.js.map": "/STAR-DB/static/js/2.0f4ed810.chunk.js.map",
-    "index.html": "/STAR-DB/index.html",
-    "precache-manifest.4b386940ac2bdf4a0d76fa435928f62a.js": "/STAR-DB/precache-manifest.4b386940ac2bdf4a0d76fa435928f62a.js",
-    "service-worker.js": "/STAR-DB/service-worker.js",
-    "static/css/main.ba31df15.chunk.css.map": "/STAR-DB/static/css/main.ba31df15.chunk.css.map",
-    "static/js/2.0f4ed810.chunk.js.LICENSE": "/STAR-DB/static/js/2.0f4ed810.chunk.js.LICENSE",
-    "static/media/boom.svg": "/STAR-DB/static/media/boom.79434f58.svg"
+    "main.css": "/STAR-DB/./static/css/main.ba31df15.chunk.css",
+    "main.js": "/STAR-DB/./static/js/main.f1dc01e1.chunk.js",
+    "main.js.map": "/STAR-DB/./static/js/main.f1dc01e1.chunk.js.map",
+    "runtime-main.js": "/STAR-DB/./static/js/runtime-main.d39a604b.js",
+    "runtime-main.js.map": "/STAR-DB/./static/js/runtime-main.d39a604b.js.map",
+    "static/js/2.0f4ed810.chunk.js": "/STAR-DB/./static/js/2.0f4ed810.chunk.js",
+    "static/js/2.0f4ed810.chunk.js.map": "/STAR-DB/./static/js/2.0f4ed810.chunk.js.map",
+    "index.html": "/STAR-DB/./index.html",
+    "precache-manifest.2b37e7f9d40d0966c67ead27a288c3ad.js": "/STAR-DB/./precache-manifest.2b37e7f9d40d0966c67ead27a288c3ad.js",
+    "service-worker.js": "/STAR-DB/./service-worker.js",
+    "static/css/main.ba31df15.chunk.css.map": "/STAR-DB/./static/css/main.ba31df15.chunk.css.map",
+    "static/js/2.0f4ed810.chunk.js.LICENSE": "/STAR-DB/./static/js/2.0f4ed810.chunk.js.LICENSE",
+    "static/media/boom.svg": "/STAR-DB/./static/media/boom.79434f58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.97b2269c.js",
+    "static/js/runtime-main.d39a604b.js",
     "static/js/2.0f4ed810.chunk.js",
     "static/css/main.ba31df15.chunk.css",
     "static/js/main.f1dc01e1.chunk.js"
