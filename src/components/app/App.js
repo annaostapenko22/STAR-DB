@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Switch } from "react-router-dom";
 
 import Header from "../header/Header";
-import PlanetDetails from "../planet-details/PlanetDetails";
-import StarshipDetails from "../starship-details/StarshipDetails";
 import RandomPlanet from "../random-planet/RandomPlanet";
 import ErrorIndicator from "../error-indicator/ErrorIndicator";
 import PeoplePage from "../people-page/PeoplePage";
