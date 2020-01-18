@@ -4,7 +4,7 @@ import ItemDetails from "../item-details/ItemDetails";
 import ErrorIndicator from "../error-indicator/ErrorIndicator";
 import SwapiService from "../../services/swapi-service";
 import style from "../app/App.module.css";
-import stylePage from "../people-page/PeoplePage.module.css"
+import stylePage from "../people-page/PeoplePage.module.css";
 class StarshipPage extends Component {
   swapiService = new SwapiService();
   state = {
@@ -34,7 +34,7 @@ class StarshipPage extends Component {
           itemId={this.state.selectedItem}
           getItems={this.swapiService.getStarShipById}
           getImageUrl={this.swapiService.getStarshipImage}
-          title={this.props.title}
+          title={"starship"}
         />
       </div>
     );

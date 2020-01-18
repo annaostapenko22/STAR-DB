@@ -27,7 +27,6 @@ export default class RandomPlanet extends Component {
   };
 
   updatePlanet = () => {
-    // console.log("update");
     const id = Math.floor(Math.random() * 10) + 3;
     this.swapiService
       .getPlanetById(id)
@@ -35,7 +34,6 @@ export default class RandomPlanet extends Component {
       .catch(this.onError);
   };
   render() {
-    // this.updatePlanet();
     const classNames = [style.container, styles.planetSection];
     const { planet, loading, error } = this.state;
     const hasData = !(loading || error);
@@ -61,7 +59,6 @@ const PlanetView = ({ planet }) => {
       <img
         alt="some planet"
         src={image}
-        // onError={onError}
         className={styles.planetPicture}
       />
       <div>

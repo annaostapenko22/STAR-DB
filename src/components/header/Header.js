@@ -10,13 +10,19 @@ const Header = () => {
       <nav className={styles.nav}>
         <ul className={styles.list}>
           <li className={styles.listItem}>
-            <Link to="/" className={styles.link}>People</Link>
+            <Link to="/" className={styles.link}>
+              People
+            </Link>
           </li>
           <li className={styles.listItem}>
-            <Link to="/planets" className={styles.link}>Planets</Link>
+            <Link to="/planets" className={styles.link}>
+              Planets
+            </Link>
           </li>
           <li className={styles.listItem}>
-            <Link to="/starships" className={styles.link}>Starships</Link>
+            <Link to="/starships" className={styles.link}>
+              Starships
+            </Link>
           </li>
         </ul>
       </nav>

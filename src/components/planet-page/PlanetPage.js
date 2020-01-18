@@ -36,7 +36,7 @@ class PlanetPage extends Component {
           itemId={this.state.selectedItem}
           getItems={this.swapiService.getPlanetById}
           getImageUrl={this.swapiService.getPlanetImage}
-          title={this.props.title}
+          title={"planet"}
         />
       </div>
     );

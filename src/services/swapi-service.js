@@ -1,5 +1,4 @@
 export default class SwapiService {
-  //   _apiBase = "http https://swapi.co/api";
   getResource = async url => {
     const res = await fetch(url);
     if (!res.ok) {
@@ -46,7 +45,6 @@ export default class SwapiService {
   };
   _extractId = item => {
     const idRegexExpr = /\/([0-9]*)\/$/;
-    // console.log(item.url.match(idRegexExpr)[1]);
     return item.url.match(idRegexExpr)[1];
   };
   _transformPlanet = planet => {
@@ -74,7 +72,6 @@ export default class SwapiService {
     };
   };
   _transformPerson = person => {
-    console.log(person);
     return {
       type: "person",
       id: this._extractId(person),
@@ -85,11 +82,3 @@ export default class SwapiService {
     };
   };
 }
-
-// const swapi = new SwapiService();
-// swapi
-//   .getPersonById(3)
-//   .then(data => {
-//     console.log(data);
-//   })
-//   .catch(err => console.log(err));

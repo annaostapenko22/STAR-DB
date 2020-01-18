@@ -36,7 +36,7 @@ class PeoplePage extends Component {
           itemId={this.state.selectedItem}
           getItems={this.swapiService.getPersonById}
           getImageUrl={this.swapiService.getPersonImage}
-          title={this.props.title}
+          title={"person"}
         />
       </div>
     );

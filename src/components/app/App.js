@@ -7,7 +7,6 @@ import ErrorIndicator from "../error-indicator/ErrorIndicator";
 import PeoplePage from "../people-page/PeoplePage";
 import PlanetPage from "../planet-page/PlanetPage";
 import StarshipPage from "../starships-page/StarshipPage";
-import ItemList from "../item-list/ItemList";
 import "./App.module.css";
 import SwapiService from "../../services/swapi-service";
 
@@ -17,9 +16,6 @@ class App extends Component {
     selectedItem: null,
     hasError: false
   };
-  // onItemSelected = id => {
-  //   this.setState({ selectedPerson: id });
-  // };
   onItemSelected = id => {
     this.setState({ selectedItem: id });
   };
@@ -37,9 +33,9 @@ class App extends Component {
           <Header />
           <RandomPlanet />
           <Switch>
-            <PlanetPage path="/planets" title={"planet"}/>
-            <StarshipPage path="/starships" title={"starship"}/>
-            <PeoplePage path="/" title={"person"}/>
+            <PlanetPage path="/planets" />
+            <StarshipPage path="/starships" />
+            <PeoplePage path="/" />
           </Switch>
         </Router>
       </div>
